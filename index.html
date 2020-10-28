@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Tiziano Radicchi">
+  <meta name="description" content="Space activity summary page">
+  <link rel="icon" href="images/icon.ico" type="image/x-icon"/>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <title>Home | Space Summary</title>
+</head>
+<body>
+  <div class="main">
+    <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo"><a class="logoLink" href="index.html">SpM</a></label>
+      <ul>
+        <li><a class="active" href="index.html">HOME</a></li>
+        <li><a href="iss.html">ISS</a></li>
+        <li><a href="nasa-scheduled.html">NASA SCHEDULED</a></li>
+        <li><a href="spacex.html">SPACEX</a></li>
+      </ul>
+    </nav>
+    <h1>Space Summary</h1>
+    <h3>The space at your fingertips</h3>
+    <div class="comets">
+      <img id="comet1" src="images/comet1.png" alt="comet1">
+      <img id="comet2" src="images/comet2.png" alt="comet2">
+      <img id="comet3" src="images/comet3.png" alt="comet3">
+      <img id="comet4" src="images/comet4.png" alt="comet4">
+      <img id="comet5" src="images/comet5.png" alt="comet5">
+    </div>
+    <div class="arrow">
+      <a href="#second"><img src="images/arrow.png" alt="arrow"></a>
+    </div>
+  </div>
+  <div class="content" id="second">
+    <div class="images">
+      <!--<img id="shuttle" src="images/spaceshuttle2.png" alt="shuttle">-->
+      <img id="planet1" src="images/planet1.png" alt="planet">
+      <img id="cloud1" src="images/cloud1.png" alt="cloud">
+      <img id="cloud2" src="images/cloud2.png" alt="cloud">
+      <img id="cloud3" src="images/cloud3.png" alt="cloud">
+    </div>
+    <div data-aos="fade-right">
+      <h2>Everything you need in one website</h2>
+      <p>Space Summary is a collection of every useful website to inform yourself about current and future space activities and missions.</p>
+      <p id="discover">Find out the latest news</p>
+      <!--<a href="nasa-scheduled.html"><img src="images/enter.png" alt="enter"></a>-->
+      <a href="nasa-scheduled.html"><div class="enter">
+        <div class="enter-top"></div>
+        <div class="enter-bottom"></div>
+      </div></a>
+    </div>
+  </div>
+  <footer>
+    <!--<h3>Conceived and written by Tiz314</h3>
+    <div id="gitLink">
+      <a target="_blank" href="https://github.com/Tiz314">GitHub Link</a>-->
+    </div>
+  </footer>
+  <script src="scrypt.js"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>

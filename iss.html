@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Tiziano Radicchi">
+  <meta name="description" content="Space Summary ISS section">
+  <link rel="icon" href="images/icon.ico" type="image/x-icon"/>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <title>ISS | Space Summary</title>
+</head>
+<body>
+  <div class="ISS">
+    <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo"><a class="logoLink" href="index.html">SpM</a></label>
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a class="active" href="iss.html">ISS</a></li>
+        <li><a href="nasa-scheduled.html">NASA SCHEDULED</a></li>
+        <li><a href="spacex.html">SPACEX</a></li>
+      </ul>
+    </nav>
+    <h1>International Space Station (ISS)</h1>
+    <h3>The largest and most expensive Space Station ever built</h3>
+    <div class="arrow">
+      <a href="#ISShr"><img src="images/arrow.png" alt="arrow"></a>
+    </div>
+    </div>
+    <hr id="ISShr">
+    <div class="ISSIntro">
+      <div class="video-container">
+        <video autoplay muted loop id="ISSvideo">
+          <source src="images/ISS.mp4" type="video/mp4">
+        </video>
+      </div> 
+      <div class="ISStext">
+        <h1>20 years in low earth orbit(LEO)</h1>
+        <br>
+        <h3>Born from the collaboration of 5 space agencies for a common purpose</h3>
+      </div>
+    </div>
+    <div id="ISS1" data-aos="fade-down">
+      <p>Its costruction began in 1998, and was completed in 2017. This year we celebrate the 20th anniversary
+        of the ISS, which will remain in function until 2024. The ISS can host up to 6 crew members. the purpose of the station
+        is to make it possible for astronauts to perfom experiment that on earth would not be possible. In addiction, it's 
+        possible to study the effects of a long stay in orbit by astronauts. The crew members are not always the same. 
+        This in fact changes periodically trough long expeditions.
+      </p>
+    </div>
+    <div id="ISS2">
+      <div id="ISS2part1">
+        <p>Find out where's the ISS right now</p>
+        <a target="_blank" href="https://live.ariss.org/dashboard/esamap/">ESA tracker</a>
+      </div>
+      <div id="ISS2part2">
+        <p>SSTV planned activities calendar</p>
+        <a target="_blank" href="http://ariss-sstv.blogspot.com/">ARISS-SSTV images</a>
+      </div>
+      <div id="ISS2part3">
+        <p>Goonhilly Earth Station</p>
+        <a target="_blank" href="https://vhf-goonhilly.batc.org.uk/">VHF Goonhilly WebSDR</a>
+      </div>
+    </div>
+    <div id="ISS3">
+      <p>When you can see the ISS from your backyard? Check that on <a href="https://www.heavens-above.com/" target="_blank">Heavens Above</a>,
+         or just download the mobile app ISS trakcer, available on <a href="https://play.google.com/store/apps/details?id=com.nicedayapps.iss_free&hl=it" target="_blank">Android</a> 
+        and <a href="https://apps.apple.com/it/app/iss-detector/id1198597805" target="_blank">iOS</a>.</p>
+    </div>
+  </div>
+  <footer>
+    <div class="nav-footer">
+      <p><a href="index.html">Home</a></p>
+      <p><a href="iss.html">ISS</a></p>
+      <p><a href="nasa-scheduled.html">Nasa Scheduled</a></p>
+      <p><a href="spacex.html">SpaceX</a></p>
+    </div>
+    <div class="findme-footer">
+      <p>Find me on <a href="https://github.com/tiz314">GitHub</a></p>
+    </div>
+  </footer>
+  <script src="scrypt.js"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>

@@ -8,11 +8,99 @@
   scrollbar-color: #242423 #333533;
   scroll-behavior: smooth;
 }
-body{
-  background-color: #121e41;
-}
 @font-face {
   font-family: 'over';
   /*src: url('Font/prime.ttf') format('truetype');*/
   src: url('Font/Over-Regular.ttf') format('truetype');
+}
+
+a{
+  text-decoration: none;
+}
+
+.main{
+  padding-bottom: 25rem;
+  color: antiquewhite;
+  background-color: #121e41;
+}
+#presentation{
+  background-image: url(./images/desktop-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main h1{
+  padding-top: 19rem;
+  animation-name: fadeFirst;
+  animation-duration: 1.9s;
+}
+.h5{
+  animation-name: fadeSecond;
+  animation-duration: 1.9s;
+}
+
+#logo{
+  width: 2rem;
+  margin-right: 10px;
+}
+
+.arrow{
+  margin-top:25rem;
+  opacity: 0.5;
+}
+.arrow:hover{
+  animation-name: fadeArrowVertical;
+  animation-duration: 1.9s;
+  animation-iteration-count: infinite;
+}
+
+#secondMain{
+  margin-top: 9rem;
+}
+
+#secondMain img{
+  transform: rotate(-90deg);
+}
+
+.issMain{
+  background-image: url(./images/iss-illu.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 9rem;
+}
+
+@keyframes fadeFirst{
+  0%{
+    opacity: 0;
+    transform: translateY(+20%);
+
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+@keyframes fadeSecond{
+  0%{
+    opacity: 0;
+    transform: translateY(+400%);
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+@keyframes fadeArrowVertical{
+  0%{
+    opacity: 0.5;
+    transform: translateY(0%);
+  }
+  50%{
+    opacity: 1;
+    transform: translateY(+20%);
+  }
+  100%{
+    opacity: 0.5;
+    transform: translateY(0%);
+  }
 }

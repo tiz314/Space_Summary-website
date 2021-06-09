@@ -18,12 +18,12 @@ a{
   text-decoration: none;
 }
 
+
 .main{
-  padding-bottom: 25rem;
   color: antiquewhite;
   background-color: #121e41;
 }
-#presentation{
+.presentation{
   background-image: url(./images/desktop-background.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -54,11 +54,14 @@ a{
 }
 
 #secondMain{
-  margin-top: 9rem;
+  margin-top: 10rem;
+  padding-bottom: 100vh;
 }
+
 
 #secondMain img{
   transform: rotate(-90deg);
+
 }
 
 .issMain{
@@ -66,7 +69,9 @@ a{
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 9rem;
+  height: 100vh;
 }
+
 
 @keyframes fadeFirst{
   0%{
